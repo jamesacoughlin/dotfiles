@@ -17,6 +17,6 @@ mosh"
 
 pkg_array=($packages)
 
-for (( i=0; i<=${#pkg_array[@]}; i++)); do
-  brew install "${pkg_array[$i]}"
+for (( i=0; i<${#pkg_array[@]}; i++)); do
+   echo "${pkg_array[$i]}"
 done
