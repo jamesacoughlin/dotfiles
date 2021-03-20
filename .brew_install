@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+alias brew=/opt/homebrew/bin/brew
+
+packages="jq
+htop
+speedtest-cli
+wget
+irssi
+glow
+nmap
+pv
+tmux
+git
+zsh
+mosh"
+
+pkg_array=($packages)
+
+for (( i=0; i<=${#pkg_array[@]}; i++)); do
+  brew install "${pkg_array[$i]}"
+done
