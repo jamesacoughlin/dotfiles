@@ -1,0 +1,7 @@
+function cht() {
+    curl cheat.sh/$1
+}
+
+function cdd() {
+  cd $(fasd -d $1)
+}
