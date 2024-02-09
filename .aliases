@@ -1,5 +1,5 @@
 
-alias irc='ssh sham@irc'
+
 
 alias ll='ls -l'
 
