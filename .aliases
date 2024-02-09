@@ -13,3 +13,13 @@ alias pull='git pull'
 alias co='git checkout'
 
 alias stock='/usr/local/bin/ticker W'
+
+
+alias asource='/opt/homebrew/bin/SwitchAudioSource'
+alias asrc='/opt/homebrew/bin/SwitchAudioSource'
+
+source /Users/jamescoughlin/.functions
+
+alias phones='aout $PHONES'
+alias speakers='aout $MBASPEAKERS'
+
